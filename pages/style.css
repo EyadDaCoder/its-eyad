@@ -83,7 +83,17 @@ a {
     font-family: 'Arial Narrow'
 }
 
-
+#text {
+    background-color: red;
+    text-align: center;
+    display: inline-block;
+    border: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Segoe UI;
+    font-size: 30px;
+    border-radius: 10px;
+}
 
 
 
