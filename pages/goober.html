@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>eyad/goober</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
     <footer>
         <nav>
             <a href="../index.html">home</a>
             <a href="bio.html">bio</a>
-            <a href="projects.html">projects</a>
             <a href="email.html">email me</a>
-            <a href="music.html">music</a>
+            <a href="downloads.html">downloads</a>
             <a id="playwithgoober" href="goober.html">play with goober</a>
         </nav>
     </footer>    
@@ -23,27 +22,27 @@
         <p>this is wiliam the goober. we don't know where he came from. we only know his last name.</p>
         <br>
         <button onclick="petGoober()" type="button">pet</button>
-        <img id="goober" src="../images/dennis_william.png" width = 200>
+        <img id="goober" src="../server/images/dennis_william.png" width = 200>
         <button onclick="feedGoober()" type="button">feed</button>
         </div>
         <script>
             function petGoober() {
                 const img = document.getElementById("goober");
 
-                img.src = "../images/william_pet.gif";
+                img.src = "../server/images/william_pet.gif";
 
                 setTimeout(() => {
-                    img.src = "../images/dennis_william.png";
+                    img.src = "../server/images/dennis_william.png";
                 }, 2000);
             }
             
             function feedGoober() {
                 const img = document.getElementById("goober");
 
-                img.src = "../images/william_eat.gif?";
+                img.src = "../server/images/william_eat.gif?";
 
                 setTimeout(() => {
-                    img.src = "../images/dennis_william.png";
+                    img.src = "../server/images/dennis_william.png";
                 }, 3000);
             }
         </script>
