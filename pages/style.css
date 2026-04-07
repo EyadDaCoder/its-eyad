@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/wallpaper.webp');
+    background-image: url('../server/images/wallpaper.webp');
     background-size: cover;      /* stretches image to fill the whole page */
     background-position: center; /* keeps it centered */
     background-repeat: no-repeat; /* stops it from tiling */
