@@ -15,7 +15,7 @@ h1 {
     border: dashed;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: Segoe UI;
+    font-family: "Segoe UI", "Noto Sans", sans-serif;
     font-size: 50px;
     border-radius: 10px;
 }
